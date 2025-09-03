@@ -56,19 +56,25 @@ export const VehicleListingPage: React.FC<VehicleListingPageProps> = ({ onBack, 
 
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             <div className="bg-gradient-to-br from-yellow-50 to-yellow-100 rounded-2xl p-8 text-center">
-              <div className="text-4xl mb-4">🚜</div>
+              <div className="bg-yellow-500 w-12 h-12 rounded-xl flex items-center justify-center mx-auto mb-4">
+                <Truck className="text-white w-6 h-6" />
+              </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Agricultural</h3>
               <p className="text-gray-600 text-sm">JCBs, Excavators, Tractors, and farming equipment</p>
             </div>
             
             <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8 text-center">
-              <div className="text-4xl mb-4">🚛</div>
+              <div className="bg-blue-500 w-12 h-12 rounded-xl flex items-center justify-center mx-auto mb-4">
+                <Truck className="text-white w-6 h-6" />
+              </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Construction</h3>
               <p className="text-gray-600 text-sm">Tippers, Lorries, Concrete Mixers, and construction vehicles</p>
             </div>
             
             <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-2xl p-8 text-center">
-              <div className="text-4xl mb-4">🚰</div>
+              <div className="bg-green-500 w-12 h-12 rounded-xl flex items-center justify-center mx-auto mb-4">
+                <Package className="text-white w-6 h-6" />
+              </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Water Supply</h3>
               <p className="text-gray-600 text-sm">Water Bowsers, Tankers, and water supply vehicles</p>
             </div>

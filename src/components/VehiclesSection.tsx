@@ -393,7 +393,11 @@ export const VehiclesSection: React.FC<VehiclesSectionProps> = ({ onBack, onRequ
                     className="w-full h-40 object-cover group-hover:scale-110 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-colors"></div>
-                  <div className="absolute top-3 left-3 text-2xl">{category.icon}</div>
+                  <div className="absolute top-4 left-4">
+                    <div className="bg-white/20 backdrop-blur-sm p-2 rounded-lg">
+                      <Truck className="text-white w-6 h-6" />
+                    </div>
+                  </div>
                 </div>
                 
                 <div className="p-6">

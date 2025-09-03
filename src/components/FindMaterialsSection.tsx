@@ -374,6 +374,11 @@ export const FindMaterialsSection: React.FC<FindMaterialsSectionProps> = ({ onBa
                   />
                   <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-colors"></div>
                   <div className="absolute top-4 left-4 text-3xl">{category.icon}</div>
+                  <div className="absolute top-4 left-4">
+                    <div className="bg-white/20 backdrop-blur-sm p-2 rounded-lg">
+                      <Package className="text-white w-6 h-6" />
+                    </div>
+                  </div>
                   <div className="absolute bottom-4 left-4 right-4">
                     <div className="bg-white/90 backdrop-blur-sm rounded-lg p-3">
                       <h3 className="text-lg font-bold text-gray-900">{category.name}</h3>
