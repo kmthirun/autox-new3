@@ -105,7 +105,7 @@ export const MaterialsPage: React.FC<MaterialsPageProps> = ({ onSignUp, onMateri
            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="bg-gray-50 rounded-2xl p-6 text-center">
               <div className="bg-yellow-100 w-12 h-12 rounded-xl flex items-center justify-center mx-auto mb-4">
-                <span className="text-xl">🏖️</span>
+                <Package className="text-yellow-600 w-6 h-6" />
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-2">Sand</h3>
               <p className="text-gray-600 text-sm">River sand, sea sand, construction sand</p>
@@ -113,7 +113,7 @@ export const MaterialsPage: React.FC<MaterialsPageProps> = ({ onSignUp, onMateri
 
             <div className="bg-gray-50 rounded-2xl p-6 text-center">
               <div className="bg-green-100 w-12 h-12 rounded-xl flex items-center justify-center mx-auto mb-4">
-                <span className="text-xl">🌱</span>
+                <Package className="text-green-600 w-6 h-6" />
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-2">Soil</h3>
               <p className="text-gray-600 text-sm">Garden soil, topsoil, fill dirt</p>
@@ -122,7 +122,7 @@ export const MaterialsPage: React.FC<MaterialsPageProps> = ({ onSignUp, onMateri
 
             <div className="bg-gray-50 rounded-2xl p-6 text-center">
               <div className="bg-red-100 w-12 h-12 rounded-xl flex items-center justify-center mx-auto mb-4">
-                <span className="text-xl">🧱</span>
+                <Package className="text-red-600 w-6 h-6" />
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-2">Bricks</h3>
               <p className="text-gray-600 text-sm">Clay bricks, concrete blocks</p>
@@ -130,7 +130,7 @@ export const MaterialsPage: React.FC<MaterialsPageProps> = ({ onSignUp, onMateri
 
             <div className="bg-gray-50 rounded-2xl p-6 text-center">
               <div className="bg-gray-100 w-12 h-12 rounded-xl flex items-center justify-center mx-auto mb-4">
-                <span className="text-xl">🪨</span>
+                <Package className="text-gray-600 w-6 h-6" />
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-2">Gravel</h3>
               <p className="text-gray-600 text-sm">Crushed stone, aggregate</p>
@@ -138,7 +138,7 @@ export const MaterialsPage: React.FC<MaterialsPageProps> = ({ onSignUp, onMateri
 
             <div className="bg-gray-50 rounded-2xl p-6 text-center">
               <div className="bg-blue-100 w-12 h-12 rounded-xl flex items-center justify-center mx-auto mb-4">
-                <span className="text-xl">🔩</span>
+                <Package className="text-blue-600 w-6 h-6" />
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-2">Metal</h3>
               <p className="text-gray-600 text-sm">Steel rods, iron bars</p>
@@ -146,7 +146,7 @@ export const MaterialsPage: React.FC<MaterialsPageProps> = ({ onSignUp, onMateri
 
             <div className="bg-gray-50 rounded-2xl p-6 text-center">
               <div className="bg-orange-100 w-12 h-12 rounded-xl flex items-center justify-center mx-auto mb-4">
-                <span className="text-xl">🪵</span>
+                <Package className="text-orange-600 w-6 h-6" />
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-2">Timber</h3>
               <p className="text-gray-600 text-sm">Construction wood, planks</p>
@@ -154,7 +154,7 @@ export const MaterialsPage: React.FC<MaterialsPageProps> = ({ onSignUp, onMateri
 
             <div className="bg-gray-50 rounded-2xl p-6 text-center">
               <div className="bg-purple-100 w-12 h-12 rounded-xl flex items-center justify-center mx-auto mb-4">
-                <span className="text-xl">🏠</span>
+                <Package className="text-purple-600 w-6 h-6" />
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-2">Cement</h3>
               <p className="text-gray-600 text-sm">Portland cement, concrete mix</p>
@@ -162,7 +162,7 @@ export const MaterialsPage: React.FC<MaterialsPageProps> = ({ onSignUp, onMateri
 
             <div className="bg-gray-50 rounded-2xl p-6 text-center">
               <div className="bg-pink-100 w-12 h-12 rounded-xl flex items-center justify-center mx-auto mb-4">
-                <span className="text-xl">🔧</span>
+                <Package className="text-pink-600 w-6 h-6" />
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-2">Hardware</h3>
               <p className="text-gray-600 text-sm">Nails, screws, tools</p>

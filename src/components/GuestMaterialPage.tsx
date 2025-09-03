@@ -61,7 +61,7 @@ export const GuestMaterialPage: React.FC<GuestMaterialPageProps> = ({ onSignUp }
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">🏖️ Premium Sand</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Premium Sand</h3>
                 <p className="text-gray-600 mb-4">High-quality river sand, sea sand, and construction sand from verified suppliers.</p>
                 <div className="bg-yellow-50 rounded-lg p-3">
                   <div className="text-sm text-gray-600">Starting from</div>
@@ -77,7 +77,7 @@ export const GuestMaterialPage: React.FC<GuestMaterialPageProps> = ({ onSignUp }
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">🌱 Quality Soil</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Quality Soil</h3>
                 <p className="text-gray-600 mb-4">Garden soil, topsoil, and fill dirt for all your landscaping needs.</p>
                 <div className="bg-green-50 rounded-lg p-3">
                   <div className="text-sm text-gray-600">Starting from</div>
@@ -93,7 +93,7 @@ export const GuestMaterialPage: React.FC<GuestMaterialPageProps> = ({ onSignUp }
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">🧱 Durable Bricks</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Durable Bricks</h3>
                 <p className="text-gray-600 mb-4">Clay bricks, concrete blocks, and pavers for strong construction.</p>
                 <div className="bg-red-50 rounded-lg p-3">
                   <div className="text-sm text-gray-600">Starting from</div>

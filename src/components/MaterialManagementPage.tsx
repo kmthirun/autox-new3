@@ -418,7 +418,7 @@ export const MaterialManagementPage: React.FC<MaterialManagementPageProps> = ({
                 </div>
               ) : (
                 <div className="text-center py-16">
-                  <div className="text-6xl mb-4">📋</div>
+                  <Package className="w-16 h-16 text-gray-400 mx-auto mb-4" />
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">No Materials Added Yet</h3>
                   <p className="text-gray-600 mb-8">Start by adding your first material to attract customers</p>
                   <button

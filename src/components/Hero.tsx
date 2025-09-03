@@ -25,7 +25,6 @@ export const Hero: React.FC<HeroProps> = ({ onServiceSelect }) => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center text-white">
             <div className="inline-flex items-center bg-yellow-400/20 backdrop-blur-sm text-yellow-300 px-6 py-3 rounded-full text-sm font-medium mb-8">
-              <Star className="w-4 h-4 mr-2 fill-current" />
               Sri Lanka's Leading Construction Platform
             </div>
             
@@ -334,7 +333,7 @@ export const Hero: React.FC<HeroProps> = ({ onServiceSelect }) => {
               <div className="absolute -bottom-8 -left-8 bg-white p-6 rounded-2xl shadow-lg">
                 <div className="flex items-center space-x-4">
                   <div className="bg-yellow-400 p-3 rounded-xl">
-                    <Star className="text-white w-6 h-6 fill-current" />
+                    <Star className="text-white w-6 h-6" />
                   </div>
                   <div>
                     <div className="font-bold text-gray-900 text-lg">4.9/5 Rating</div>

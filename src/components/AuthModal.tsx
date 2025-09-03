@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { User, Mail, Phone, Eye, EyeOff } from 'lucide-react';
 import { User } from '../types';
 
 interface AuthModalProps {

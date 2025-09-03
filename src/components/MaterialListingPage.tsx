@@ -251,7 +251,7 @@ export const MaterialListingPage: React.FC<MaterialListingPageProps> = ({ onBack
             <div className="flex items-center justify-between mb-8">
               <h3 className="text-2xl font-bold text-gray-900 flex items-center">
                 <MessageSquare className="w-6 h-6 mr-3" />
-                💬 Customer Reviews & ⭐ Ratings
+                Customer Reviews & Ratings
               </h3>
               <div className="text-center">
                 <div className="text-3xl font-bold text-blue-600">{averageRating.toFixed(1)}</div>

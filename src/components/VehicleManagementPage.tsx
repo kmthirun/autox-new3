@@ -467,7 +467,7 @@ export const VehicleManagementPage: React.FC<VehicleManagementPageProps> = ({
                 </div>
               ) : (
                 <div className="text-center py-16">
-                  <div className="text-6xl mb-4">📋</div>
+                  <Truck className="w-16 h-16 text-gray-400 mx-auto mb-4" />
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">No {partner.type === 'vehicle_owner' ? 'Vehicles' : 'Materials'} Added Yet</h3>
                   <p className="text-gray-600 mb-8">Start by adding your first {getItemType()} to attract customers</p>
                   <button
